@@ -1,4 +1,4 @@
-class StudentDatabase {
+class Student {
 
     String name, degree, stream;
     int roll;
@@ -13,13 +13,13 @@ class StudentDatabase {
     }
 }
 
-public class Student {
+public class Student_Database {
 
     public static void main(String[] args) {
 
-        StudentDatabase sd1 = new StudentDatabase();
-        StudentDatabase sd2 = new StudentDatabase();
-        StudentDatabase sd3 = new StudentDatabase();
+        Student sd1 = new Student();
+        Student sd2 = new Student();
+        Student sd3 = new Student();
 
         sd1.name = "Shibam Saha";
         sd1.degree = "B. Tech";
@@ -41,3 +41,21 @@ public class Student {
         sd3.printInfo();
     }
 }
+
+/*
+ * Output:
+ * Student's name: Shibam Saha
+ * Student's degree: B. Tech
+ * Student's stream: CSE
+ * Student's roll: 100
+ * 
+ * Student's name: Sunabha Panda
+ * Student's degree: B. Tech
+ * Student's stream: CS/IT
+ * Student's roll: 84
+ * 
+ * Student's name: Pritam Gain
+ * Student's degree: B. Sc
+ * Student's stream: Data Science
+ * Student's roll: 85
+ */

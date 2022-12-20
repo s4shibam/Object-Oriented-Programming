@@ -81,3 +81,18 @@ public class Area_Of_Shapes {
         cone.area();
     }
 }
+
+/*
+ * Output:
+ * Enter Length of the Rectangle = 5
+ * Enter Breadth of the Rectangle = 6
+ * Rectangle :- length = 5, Breadth = 6
+ * Area of Rectangle = 30
+ * Enter the Radius of Circle = 4
+ * Radius of Circle = 4
+ * Area of Circle = 50.24
+ * Enter the Radius of Cone = 7
+ * Enter the Height of Cone = 3
+ * Radius of Circle = 7
+ * Area of Circle = 461.58
+ */

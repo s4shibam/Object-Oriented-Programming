@@ -1,4 +1,4 @@
-# Object oriented Programming in JAVA
+# Object Oriented Programming in JAVA
 
 ### What is Object Oriented Programming
 
