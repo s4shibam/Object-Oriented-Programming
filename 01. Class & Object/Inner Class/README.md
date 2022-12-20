@@ -8,5 +8,5 @@ Additionally, it can access all the members of the outer class, including privat
 
 Types:
 
-- Inner Class
-- Anonymous Inner Class
+    - Inner Class
+    - Anonymous Inner Class
