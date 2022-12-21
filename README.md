@@ -6,14 +6,13 @@ The word object-oriented is the combination of two words i.e. object and oriente
 
 The technical definition of object-oriented programming is as follows:
 
-```The object-oriented programming is basically a computer programming design philosophy or methodology that organizes/ models software design around data, or objects rather than functions and logic.```
+`The object-oriented programming is basically a computer programming design philosophy or methodology that organizes/ models software design around data, or objects rather than functions and logic.`
 
 ### Pillars of OOPS
 
 The major concepts that we have discussed above are known as pillars of OOPs. There are four pillars on which OOP rests.
 
-- Abstraction
-- Encapsulation
-- Inheritance
-- Polymorphism
-
+    - Abstraction
+    - Encapsulation
+    - Inheritance
+    - Polymorphism

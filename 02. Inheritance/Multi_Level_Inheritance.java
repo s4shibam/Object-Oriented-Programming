@@ -1,9 +1,13 @@
-// MULTI LEVEL INHERITANCE
+/*
+Multilevel Inheritance
+
+When there is a chain of inheritance, it is known as multilevel inheritance.
+*/
 
 import java.util.*;
 
-// *input class is the parent class
-class input {
+// *Input class is the Parent class
+class Input {
 
     int num1, num2;
 
@@ -18,8 +22,8 @@ class input {
     }
 }
 
-// *All details of input class inherited to addition class
-class addition extends input {
+// *All details of Input class inherited to Addition class
+class Addition extends Input {
 
     int sum;
 
@@ -29,8 +33,8 @@ class addition extends input {
     }
 }
 
-// *All details of addition class inherited to subtraction class
-class subtraction extends addition {
+// *All details of Addition class inherited to Subtraction class
+class Subtraction extends Addition {
 
     int sub;
 
@@ -40,8 +44,8 @@ class subtraction extends addition {
     }
 }
 
-// *All details of subtraction class inherited to multiplication class
-class multiplication extends subtraction {
+// *All details of Subtraction class inherited to Multiplication class
+class Multiplication extends Subtraction {
 
     int mul;
 
@@ -51,8 +55,8 @@ class multiplication extends subtraction {
     }
 }
 
-// *All details of multiplication class inherited to division class
-class division extends multiplication {
+// *All details of Multiplication class inherited to Division class
+class Division extends Multiplication {
 
     int div;
 
@@ -64,7 +68,7 @@ class division extends multiplication {
 }
 
 // *All details of division class inherited to Output class
-class output extends division {
+class Output extends Division {
 
     void output_action() {
 
@@ -75,19 +79,31 @@ class output extends division {
     }
 }
 
-public class Calculator {
+public class Multi_Level_Inheritance {
 
     public static void main(String[] args) {
 
         System.out.println("MULTI LEVEL INHERITANCE - CALCULATOR");
         System.out.println("------------------------------------");
 
-        output output = new output();
-        output.input_action();
-        output.addition_action();
-        output.subtraction_action();
-        output.multiplication_action();
-        output.division_action();
-        output.output_action();
+        Output out = new Output();
+        out.input_action();
+        out.addition_action();
+        out.subtraction_action();
+        out.multiplication_action();
+        out.division_action();
+        out.output_action();
     }
 }
+
+/*
+ * Output:
+ * MULTI LEVEL INHERITANCE - CALCULATOR
+ * ------------------------------------
+ * Enter 1st & 2nd Number = 50 25
+ * 
+ * Addition: (50 + 25) = 75
+ * Subtraction: (50 - 25) = 25
+ * Multiplication: (50 * 25) = 1250
+ * Division: (50 / 25) = 2
+ */

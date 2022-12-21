@@ -1,7 +1,10 @@
-// Hierarchical Inheritance
-/* Idea -
+/*Hierarchical Inheritance
 
-    ? One Parent --> Multiple Child
+When two or more classes inherits a single class, it is known as hierarchical inheritance. 
+
+Idea -
+
+    - One Parent --> Multiple Child
 
             Smartphone
         ________|________
@@ -46,17 +49,17 @@ class Smartphone {
 
 // Derived Class or Child Class
 class Samsung extends Smartphone {
-    
+
     public void samsungPhone() {
-        
+
         Samsung ss = new Samsung();
         ss.name = "Samsung";
         ss.origin = "South Korea";
         ss.price = 20000;
-        
+
         ss.printOut();
     }
-    
+
 }
 
 // Derived Class or Child Class
@@ -64,18 +67,17 @@ class Oneplus extends Smartphone {
 
     public void oneplusPhone() {
 
+        // Below member variables and method can also be called
+        // without the help of object creation.
+        // Because, all the details are inherited from Smartphone
+        // and those variables and method are its own now.
 
-        /* 
-        Below member variables and method can also be called without the help of object creation.
-        Because, all the details are inherited from Smartphone and those variables and method are its own now.
-        
-            name = "Oneplus";
-            origin = "China";
-            price = 41000;
+        // name = "Oneplus";
+        // origin = "China";
+        // price = 41000;
+        //
+        // printOut();
 
-            printOut();
-        */
-        
         Oneplus op = new Oneplus();
         op.name = "Oneplus";
         op.origin = "China";
@@ -85,7 +87,7 @@ class Oneplus extends Smartphone {
     }
 }
 
-public class Phone_Details {
+public class Hierarchical_Inheritance {
     public static void main(String[] args) {
 
         Samsung ssp = new Samsung();
@@ -98,3 +100,25 @@ public class Phone_Details {
     }
 
 }
+
+/*
+ * Output:
+ * 
+ * Hi! I am a Smartphone!
+ * Basic Details:
+ * Screen type: Amoled
+ * Screen Size: 6.5 Inch
+ * Brand Specific Features:
+ * Brand name = Samsung
+ * Brand Origin = South Korea
+ * Phone Price = 20000
+ * 
+ * Hi! I am a Smartphone!
+ * Basic Details:
+ * Screen type: Amoled
+ * Screen Size: 6.5 Inch
+ * Brand Specific Features:
+ * Brand name = Oneplus
+ * Brand Origin = China
+ * Phone Price = 41000
+ */
