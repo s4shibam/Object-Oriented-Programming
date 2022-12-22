@@ -7,12 +7,12 @@ In java, we can achieve hybrid inheritance only through Interfaces.
 
 Structure:
 
-                    |-->   Student
-                    |       |
-    Multi Level _   |-->   Exam             Project    -|
-    Inheritance     |       |__________________|    <-- |  _ Multiple        
-                    |       |                           |    Inheritance
-                    |-->  Result                       -|
+                      |-->    Student
+                      |          |                      
+    Multi Level -->   |-->      Exam             Project   --|
+    Inheritance       |          |__________________|     <--|  <-- Multiple        
+                      |          |                           |      Inheritance
+                      |-->     Result                      --|
 */
 
 // Super Class

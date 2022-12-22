@@ -12,5 +12,6 @@ Types of polymorphism
 
     - Compile-time Polymorphism / Static Polymorphism
         - Method Overloading
+        
     - Runtime Polymorphism / Dynamic Polymorphism / Dynamic Method Dispatch
         - Method Overriding
