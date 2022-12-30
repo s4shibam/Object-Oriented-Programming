@@ -10,6 +10,9 @@ public class Unchecked_Exception {
         // Undetectable in Compile-time
         int result = 100 / 0;
         System.out.println(result);
+
+        // This part will never be executed
+        System.out.println("Hello World!");
     }
 }
 

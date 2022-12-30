@@ -11,6 +11,7 @@ Exception is an unwanted or unexpected event, which occurs during the execution 
 Exceptions can be categorized in two ways:
 
     - Built-in Exceptions [Exceptions available in Java libraries]
+    
             - Checked Exception [Compile-time Exceptions]
             - Unchecked Exception [Undetected in Compile-time]
 
